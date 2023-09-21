@@ -1,0 +1,26 @@
+nav {
+  background: white;
+  width: max-content;
+  display: flex;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1rem;
+  display: block;
+  gap: 0.8rem;
+  border-radius: 1.6rem;
+  backdrop-filter: blur(15px);
+  margin-left: 2px;
+}
+
+nav a {
+  background: transparent;
+  padding: 1.3rem;
+  border-radius: 30%;
+  font-size: 1rem;
+}
+
+nav a.active {
+  color: var(--color-primary-variant);
+}

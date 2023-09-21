@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Caveat:wght@600&family=Courgette&family=Lato:wght@300&family=Long+Cang&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Pacifico&family=Phudu&family=Playfair+Display:ital@0;1&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #fffbf1;
+  --color-bg-variant: #e9c18d;
+  --color-primary: #5f696e;
+  --color-primary-variant: #ccd8e5;
+  --color-dark: black;
+  --color-light: white;
+
+  --transition: all 400ms ease;
+
+  --container-width-large: 75%;
+  --container-width-medium: 86%;
+  --container-width-small: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-primary);
+  line-height: 1.7;
+}
+
+.container {
+  width: var(--container-width-large);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin: 3rem 2.8rem 3rem 3rem;
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-bg);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-bg);
+  background-color: var(--color-primary-variant);
+  padding: 0.4rem 1rem;
+  border-radius: 0rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary-variant);
+  border-color: transparent;
+}
+
+img {
+  display: inline;
+  width: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-medium);
+  }
+
+  section {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-small);
+  }
+
+  section {
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+  }
+}

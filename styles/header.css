@@ -1,0 +1,45 @@
+.getInTouch {
+  margin-top: 10px;
+}
+
+.fullStackDev {
+  margin-top: 3px;
+}
+
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.header_socials {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.9rem;
+  position: absolute;
+}
+
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+}

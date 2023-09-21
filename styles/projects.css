@@ -1,0 +1,39 @@
+.portfolio_item {
+  margin: 2rem 2rem;
+  background: whitesmoke;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#FoodDelivery,
+#Detector,
+#Website,
+#Misc {
+  margin-top: 1rem;
+  width: 250px;
+  height: 250px;
+}
+
+.btn-primary {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
