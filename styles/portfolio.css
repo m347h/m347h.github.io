@@ -1,0 +1,75 @@
+.container.testimonials_container {
+  width: 40%;
+  padding-bottom: 4rem;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ #arduino{
+  width: 24rem;
+ }
+ 
+ 
+ .client_avatar {
+ aspect-ratio: 1/1;
+  overflow:auto;
+  margin: 0 auto 1rem;
+  }
+ 
+ 
+  .client_name{
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .testimonials {
+    background: var(--color-bg-variant);
+ 
+ 
+     text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+  }
+ 
+ 
+ .client_review {
+ color: white;
+ font-weight: 200;
+ display: inline;
+ width: 80%;
+    margin: 0 auto 1rem;
+   }
+ 
+ 
+   .swiper-pagination-clickable .swiper-pagination-bullet {
+     background: var(--primary-color);
+   }
+ 
+ 
+   @media screen and (max-width: 1024px) {
+     .container .testimonials_container {
+       width: 60%;
+     }
+   }
+ 
+ 
+ 
+ 
+   @media screen and (max-width: 600px) {
+    .container .testimonials_container {
+      width: var(--container-width-sm);
+    }
+ 
+ 
+ 
+ 
+    .client_review {
+      width: var(--container-width-sm);
+    }
+ 
+ 
+  }
+ 
