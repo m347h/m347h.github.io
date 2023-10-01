@@ -4,3 +4,10 @@
   border-radius: 2rem;
   padding: 2rem;
 }
+ 
+
+.role1, .styled{
+  font-weight: bold;
+  color: white;
+
+}
