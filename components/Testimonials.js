@@ -3,6 +3,7 @@ import "../styles/testimonials.css";
 import AVTR1 from "../Arduino.jpeg";
 import AVTR2 from "../french.png";
 import AVTR3 from "../fun.png";
+import "../src/styles.css"; 
 
 import { Pagination } from "swiper/modules";
 
@@ -15,19 +16,19 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Arduino memory game!",
+    name: "Arduino",
     review:
-      "I built an Arduino Memory Game using Arduino and breadboarding! The LED lights display a pattern & the player try to repeat it from memory. It restarts if you didnt get it right. "
+      "Over the summer as an participant of Shad Canada, I built an Arduino Memory Game using Arduino and breadboarding! The LED lights display a pattern & the player try to repeat it from memory. It restarts if you didnt get it right. "
   },
   {
     avatar: AVTR2,
-    name: "french",
-    review: "I built an arduino project"
+    name: "My journey with foreign languages - French",
+    review: "Learning French language and culture has always been something that I am passionate about, I was able to get the DALF C1 certificate with AF Ottawa :D"
   },
   {
     avatar: AVTR3,
-    name: "travelling",
-    review: "I built an arduino project"
+    name: "Fun Travels",
+    review: "Some of the fav places I've travelled to in the past! "
   }
 ];
 
